@@ -3,6 +3,7 @@
 <head>
     <title th:text="${articulo.id == null} ? 'Nuevo Artículo' : 'Editar Artículo'">Formulario</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
 </head>
 <body>
     <h1 th:text="${articulo.id == null} ? 'Nuevo Artículo' : 'Editar Artículo'"></h1>
