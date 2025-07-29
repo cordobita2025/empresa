@@ -23,8 +23,8 @@
                 <td th:text="${art.descripcion}">Descripción</td>
                 <td th:text="${art.precio}">0.0</td>
                 <td>
-                    <a th:href="@{'/articulos/editar/' + ${art.id}}">Editar</a> |
-                    <a th:href="@{'/articulos/eliminar/' + ${art.id}}">Eliminar</a>
+                    <a th:href="@{'/articulos/editar/' + ${art.id}}" class="button">Editar</a> |
+                    <a th:href="@{'/articulos/eliminar/' + ${art.id}} class="button" style="background-color: #dc3545;"">Eliminar</a>
                 </td>
             </tr>
         </tbody>
